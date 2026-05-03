@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { CountdownTimer } from "./CountdownTimer";
 import { ChevronDown } from "lucide-react";
 
@@ -9,12 +8,9 @@ export function Hero() {
     <section className="relative min-h-dvh flex flex-col items-center justify-center bg-white px-4 sm:px-6 pt-10 pb-16 sm:pb-20">
       {/* Campaign Logo */}
       <div className="mb-6 animate-[fadeInUp_0.7s_ease-out]">
-        <Image
+        <img
           src="/logo.png"
           alt="Guess tomorrow's score, get tomorrow's car — Hyundai"
-          width={420}
-          height={600}
-          priority
           className="mx-auto w-[240px] sm:w-[300px] md:w-[360px] h-auto"
         />
       </div>

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export function PrizeSection() {
   return (
     <section className="py-16 px-6 bg-[#f9fafb] border-t border-[#f0f1f3]">
@@ -15,11 +13,9 @@ export function PrizeSection() {
           </p>
         </div>
         <div className="flex-1">
-          <Image
-            src="/ioniq5-side.jpg"
+          <img
+            src="/ioniq5-2.jpg"
             alt="Hyundai IONIQ 5"
-            width={600}
-            height={400}
             className="w-full rounded-xl"
           />
         </div>

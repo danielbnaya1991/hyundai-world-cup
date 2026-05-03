@@ -2,7 +2,6 @@
 
 import * as React from "react";
 import confetti from "canvas-confetti";
-import Image from "next/image";
 import { Copy, Check } from "lucide-react";
 import { toast } from "sonner";
 
@@ -61,12 +60,10 @@ export function SuccessScreen({ serialNumber }: SuccessScreenProps) {
         </div>
 
         {/* Car */}
-        <Image
-          src="/ioniq5-main.png"
+        <img
+          src="/ioniq5-1.jpg"
           alt="Hyundai IONIQ 5"
-          width={500}
-          height={250}
-          className="mx-auto mb-6"
+          className="mx-auto mb-6 w-full max-w-[500px]"
         />
 
         <p className="text-[#c4c4c8] text-sm">
