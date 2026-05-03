@@ -8,6 +8,9 @@ const IMAGES = [
   "/ioniq5-3.jpg",
   "/ioniq5-4.jpg",
   "/ioniq5-5.jpg",
+  "/ioniq5-6.jpg",
+  "/ioniq5-7.jpg",
+  "/ioniq5-8.jpg",
 ];
 
 export function CarCarousel() {
@@ -22,7 +25,7 @@ export function CarCarousel() {
 
   return (
     <div className="w-full">
-      <div className="relative w-full overflow-hidden" style={{ aspectRatio: "2/1" }}>
+      <div className="relative w-full overflow-hidden" style={{ aspectRatio: "16/9" }}>
         {IMAGES.map((src, i) => (
           <img
             key={src}
